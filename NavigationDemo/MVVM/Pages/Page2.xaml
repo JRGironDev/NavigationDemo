@@ -7,9 +7,14 @@
         HorizontalOptions="Center"
         VerticalOptions="Center"
         Spacing="10">
+        <Entry 
+            x:Name="txtName"
+            Placeholder="Enter your name" />
+
         <Button 
             Text="Go to Page 3" 
             Clicked="Button_Clicked" />
+            
         <Button 
             Text="Go to Start Page" 
             Clicked="Button_Clicked_1" />

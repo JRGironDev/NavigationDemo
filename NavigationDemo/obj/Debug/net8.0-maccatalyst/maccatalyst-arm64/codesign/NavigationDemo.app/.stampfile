@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/josequinonez/C#/MAUI/NavigationDemo/NavigationDemo/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/josequinonez/C#/MAUI/NavigationDemo/NavigationDemo/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/NavigationDemo.app

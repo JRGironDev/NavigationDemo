@@ -10,6 +10,12 @@ public partial class Page2 : ContentPage
 		InitializeComponent();
 	}
 
+	public Page2(string name)
+	{
+		InitializeComponent();
+		txtName.Text = name;
+	}
+
 	    protected override void OnAppearing()
     {
         base.OnAppearing();
