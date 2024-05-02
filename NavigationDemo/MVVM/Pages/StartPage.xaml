@@ -5,10 +5,15 @@
 
     <StackLayout
         HorizontalOptions="Center"
-        VerticalOptions="Center">
+        VerticalOptions="Center"
+        Spacing="10">
         <Button 
             Text="Go to Page 2" 
             Clicked="Button_Clicked" />
+
+        <Button 
+            Text="Go to Page 3" 
+            Clicked="Button_Clicked_1" />
     </StackLayout>
 
 </ContentPage>
