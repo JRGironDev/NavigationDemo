@@ -8,7 +8,7 @@
         VerticalOptions="Center"
         Spacing="10">
         <Entry 
-            x:Name="txtName"
+            Text="{Binding Name}"
             Placeholder="Enter your name" />
 
         <Button 
