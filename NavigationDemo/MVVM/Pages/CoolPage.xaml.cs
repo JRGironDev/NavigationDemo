@@ -10,10 +10,15 @@ public partial class CoolPage : ContentPage
 		InitializeComponent();
 	}
 
-    	protected override void OnAppearing()
+    protected override void OnAppearing()
     {
         base.OnAppearing();
         NavUtilities.Examine(Navigation);
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PopModalAsync();
     }
 }
 

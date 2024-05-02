@@ -12,5 +12,11 @@
             FontSize="Large"
             HorizontalOptions="Center"
             VerticalOptions="Center" />
+
+        <Button
+            Text="Complete Form"
+            Clicked="Button_Clicked"/>
+
+
     </StackLayout>
 </ContentPage>
